@@ -1,2 +1,2 @@
 # React
-![react](https://cdn.freebiesupply.com/logos/large/2x/react-1-logo-png-transparent.png)
+react를 배워봅시다~
