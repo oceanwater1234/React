@@ -1,0 +1,37 @@
+.container{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    
+    height: 348px;
+    width: 662px;
+
+    display: flex;
+    flex-direction: row;
+
+    border-style: dashed;
+    border-radius: 20px;
+
+    .square{
+        display : flex;
+        flex-direction: row;
+
+        width: 331px;
+        height: 348px;
+    }
+
+    #white-square{
+        justify-content: end;
+        color:#614738;
+        background-color: rgb(248, 248, 248);
+        border-radius: 20px 0px 0px 20px;
+
+        z-index: 1;
+    }
+    #brown-square{
+        color:white;
+        background-color: #614738;
+        border-radius: 0px 20px 20px 0px;
+    }
+}
